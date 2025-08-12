@@ -1,0 +1,87 @@
+  .h-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .hover:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .heading {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      font-weight: bold;
+      color: white;
+    }
+
+     body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .stats-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 40px;
+    }
+    
+
+   
+    .number {
+        color: #f24d1d;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .stats-container {
+            gap: 20px;
+        }
+        .card {
+            padding: 15px 20px;
+            min-width: 180px;
+        }
+        .circle {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .best-deal-section {
+  background: #fff;
+}
+
+.best-deal-section .btn-group .btn {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.best-deal-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .best-deal-section .btn-group {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .best-deal-section h2 {
+    font-size: 1.5rem;
+  }
+}
