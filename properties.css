@@ -6,6 +6,8 @@
     .hover:hover {
       transform: scale(1.1);
       transition: 0.3s;
+      background-color: #e0613a;
+      border-radius: 50%;
     }
    
   /* Prevent horizontal overflow */

@@ -6,6 +6,8 @@
     .hover:hover {
       transform: scale(1.1);
       transition: 0.3s;
+      background-color: #e0613a;
+      border-radius: 50%;
     }
     #mainNav ul li a:hover{
       color: #e0613a;
@@ -17,10 +19,16 @@
     .heading {
       position: absolute;
       top: 30%;
-      left: 10%;
+      left: 22%;
       font-size: clamp(1.5rem, 4vw, 3rem);
       font-weight: bold;
       color: white;
+    }
+    .canada {
+      position: absolute;
+      top: 26%;
+      left: 22%;
+      background-color:white;
     }
 
      body {
