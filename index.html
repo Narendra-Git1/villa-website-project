@@ -269,9 +269,10 @@
         <p class="text-muted">
           When you need best websites, you can simply type XYZ in any search engine website. In addition, you can type XYZ Portfolio, XYZ One Page Layouts, etc.
         </p>
-        <a href="#" class="btn btn-dark fw-bold px-4 py-2 d-inline-flex align-items-center">
-          Schedule a Visit
-        </a>
+        <button class="btn btn-outline-danger rounded-pill d-flex align-items-center gap-2" style="background-color: #000;">
+  <img src="./assets/icons/calendar-solid-full.svg " alt="icon" style="width: 20px; height: 20px; background-color: #f24d1d; border-radius: 50%;">
+  Schedule a Visit
+</button>
       </div>
     </div>
   </div>
@@ -280,7 +281,7 @@
          <!-- Properties Section -->
 <section class="py-5">
   <div class="container">
-    <h5 id="properties" class="text-danger fw-bold">| PROPERTIES</h5>
+    <h5  class="text-danger fw-bold text-center">| PROPERTIES</h5>
     <h2 class="text-center fw-bold mb-5">
       We Provide The Best <br> Property You Like
     </h2>
@@ -409,15 +410,17 @@
   </div>
 </section>
           <section id="contact" class="py-5">
-  <div class="text-center mb-4">
-    <h5 class="text-danger">CONTACT US</h5>
-    <h2 class="fw-bold">Get In Touch With<br>Our Agents</h2>
-  </div>
-
+  
+<div class="position-relative" style="height: 400px; overflow: hidden;">
   <!-- Background image -->
-  <div style="position: relative; height: 400px; overflow: hidden;">
-    <img src="./assets/images/contact-bg.jpg" alt="Contact Background" style="width: 100%; height: 100%; object-fit: cover;">
+  <img src="./assets/images/contact-bg.jpg" class="w-100 h-100" style="object-fit: cover;" alt="Contact Background">
+
+  <!-- Text overlay -->
+  <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 py-2 rounded">
+    <p  class="text-danger">|CONTACT US</p>
+    <h2 class="fw-bold mb-2">Get In Touch With <br>Our Agents</h2>
   </div>
+</div>
 
   <!-- Contact section -->
   <div class="container position-relative" style="margin-top: -150px; z-index: 1;">
@@ -432,6 +435,29 @@
           allowfullscreen="" loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+         <!-- Contact Info -->
+    <div class="row text-center mt-3">
+      <div class="col-md-6 mb-1">
+        <div class="shadow p-3 rounded-3 bg-white d-flex align-items-center justify-content-center gap-2">
+          <img src="./assets/images/phone-icon.png" alt="Phone" style="width: 40px;">
+          <div>
+            <p class="mb-0 fw-bold">010-020-0340</p>
+            <small class="text-muted">Phone Number</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="shadow p-3 rounded-3 bg-white d-flex align-items-center justify-content-center gap-3">
+          <img src="./assets/images/email-icon.png" alt="Email" style="width: 40px;">
+          <div>
+            <h5 class="mb-0 fw-bold">info@villa.com</h5>
+            <small class="text-muted">Business Email</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
       </div>
 
       <!-- Contact Form -->
@@ -459,28 +485,7 @@
 
     </div>
 
-    <!-- Contact Info -->
-    <div class="row text-center mt-5">
-      <div class="col-md-6 mb-3">
-        <div class="shadow p-3 rounded-3 bg-white d-flex align-items-center justify-content-center gap-3">
-          <img src="./assets/images/phone-icon.png" alt="Phone" style="width: 40px;">
-          <div>
-            <h5 class="mb-0 fw-bold">010-020-0340</h5>
-            <small class="text-muted">Phone Number</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 mb-3">
-        <div class="shadow p-3 rounded-3 bg-white d-flex align-items-center justify-content-center gap-3">
-          <img src="./assets/images/email-icon.png" alt="Email" style="width: 40px;">
-          <div>
-            <h5 class="mb-0 fw-bold">info@villa.com</h5>
-            <small class="text-muted">Business Email</small>
-          </div>
-        </div>
-      </div>
-    </div>
-
+   
   </div>
 </section>
 
