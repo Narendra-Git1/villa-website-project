@@ -9,4 +9,7 @@
       background-color: #e0613a;
       border-radius: 50%;
     }
+    #mainNav ul li a:hover{
+      color: #e0613a;
+    }
     
