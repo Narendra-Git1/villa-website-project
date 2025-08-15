@@ -111,7 +111,10 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
-
+/* shedule a visit hover effect */
+.btnhover:hover{
+    background-color: #f24d1d !important;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .video-text h2 {
