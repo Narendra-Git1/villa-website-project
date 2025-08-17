@@ -9,27 +9,24 @@
 
 </head>
 <body>
-     <!-- Top Info Bar -->
-<nav class="bg-body-tertiary shadow-sm py-2">
-  <div class="container">
-    <div class="row text-center text-md-start">
-      <div class="col-12 col-md-4 d-flex align-items-center justify-content-center justify-content-md-start mb-2 mb-md-0">
-        <img class="h-icon" src="./assets/icons/envelope-solid-full.svg" alt="">
-        <p class="mb-0">info@company.com</p>
-      </div>
-      <div class="col-12 col-md-4 d-flex align-items-center justify-content-center mb-2 mb-md-0">
-        <img class="h-icon" src="./assets/icons/map-solid-full.svg" alt="">
-        <p class="mb-0">Sunny Isles Beach, FL 33160</p>
-      </div>
-      <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end gap-2">
+     
+<!-- Top Info Bar -->
+  <div class="container d-flex justify-content-between align-items-center">
+  <div>
+    <img class="h-icon me-2" src="./assets/icons/envelope-solid-full.svg" alt="">
+    <span class="me-4">info@company.com</span>
+
+    <img class="h-icon me-2" src="./assets/icons/map-solid-full.svg" alt="">
+    <span>Sunny Isles Beach, FL 33160</span>
+  </div>
+
+      <div>
         <a href="#"><img class="h-icon hover" src="./assets/icons/facebook-brands-solid-full.svg" alt=""></a>
         <a href="#"><img class="h-icon hover" src="./assets/icons/square-twitter-brands-solid-full.svg" alt=""></a>
         <a href="#"><img class="h-icon hover" src="./assets/icons/linkedin-brands-solid-full.svg" alt=""></a>
         <a href="#"><img class="h-icon hover" src="./assets/icons/square-instagram-brands-solid-full.svg" alt=""></a>
       </div>
     </div>
-  </div>
-</nav>
 
 <!-- Main Navbar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
@@ -181,52 +178,71 @@
   </div>
 </section>
 
-        <section class="container my-5">
-
-  <!-- Heading -->
-  <div class="text-center mb-4">
-    <p class="text-danger fw-bold mb-1">BEST DEAL</p>
-    <h2 class="fw-bold">Find Your Best Deal <br> Right Now!</h2>
-  </div>
-
-  <!-- Links -->
-  <div class="d-flex justify-content-center flex-wrap gap-3 mb-4" id="links">
-    <a href="#" class="btn btn-outline-dark">Appartment</a>
-    <a href="#" class="btn btn-outline-dark">Villa House</a>
-    <a href="#" class="btn btn-outline-dark">Penthouse</a>
-  </div>
-
-  <!-- Left - Middle - Right Layout -->
-  <div class="row g-4 align-items-center">
-
-    <!-- Left Stats -->
-    <div class="col-12 col-lg-3">
-      <div class="shadow p-3 bg-white rounded">
-        <p>Total area space: <strong>540m²</strong></p>
-        <p>Floor Number: <strong>3</strong></p>
-        <p>Number of Rooms: <strong>8</strong></p>
-        <p>Parking Available: <strong>Yes</strong></p>
-        <p>Payment Process: <strong>Bank</strong></p>
+       <!-- Best Deal Section -->
+<section class="best-deal-section py-5">
+  <div class="container">
+    <!-- Title Row -->
+    <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+      <div>
+        <p class="text-danger fw-bold mb-1 small">| BEST DEAL</p>
+        <h2 class="fw-bold">Find Your Best Deal <br> Right Now!</h2>
+      </div>
+      <div class="btn-group gap-2">
+        <a href="#" class="btn btn-danger text-white fw-bold px-4">Apartment</a>
+        <a href="#" class="btn btn-dark fw-bold px-4">Villa House</a>
+        <a href="#" class="btn btn-dark fw-bold px-4">Penthouse</a>
       </div>
     </div>
 
-    <!-- Middle Image -->
-    <div class="col-12 col-lg-5 text-center">
-      <img src="./assets/images/deal-01.jpg" alt="Deal" class="img-fluid rounded">
-    </div>
+    <!-- Content Row -->
+    <div class="row g-4 align-items-center">
+      <!-- Left Card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="bg-white shadow rounded p-4">
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Total Flat Space</span>
+            <strong>185 m<sup>2</sup></strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Floor Number</span>
+            <strong>26th</strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Number of Rooms</span>
+            <strong>4</strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Parking Available</span>
+            <strong>Yes</strong>
+          </div>
+          <div class="d-flex justify-content-between py-2">
+            <span>Payment Process</span>
+            <strong>Bank</strong>
+          </div>
+        </div>
+      </div>
 
-    <!-- Right Text -->
-    <div class="col-12 col-lg-4 deal-text">
-      <h2>All Info About Appartment</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel inventore unde debitis fuga pariatur vitae.
-        Voluptatum magni nihil corrupti aspernatur obcaecati ea vel expedita deserunt temporibus eum, quidem repudiandae.
-      </p>
-      <button class="btn btn-danger">Schedule a Visit</button>
-    </div>
+      <!-- Middle Image -->
+      <div class="col-lg-5 col-md-6 text-center">
+        <img src="./assets/images/deal-01.jpg" alt="Property" class="img-fluid rounded shadow">
+      </div>
 
+      <!-- Right Text -->
+      <div class="col-lg-4 col-md-12">
+        <h4 class="fw-bold">Extra Info About Property</h4>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quis ipsum suspendisse.
+        </p>
+        <p class="text-muted">
+          When you need best websites, you can simply type XYZ in any search engine website. In addition, you can type XYZ Portfolio, XYZ One Page Layouts, etc.
+        </p>
+        <button class="btn btn-outline-danger rounded-pill d-flex align-items-center gap-2" style="background-color: #000;">
+  <img src="./assets/icons/calendar-solid-full.svg " alt="icon" style="width: 20px; height: 20px; background-color: #f24d1d; border-radius: 50%;">
+  Schedule a Visit
+</button>
+      </div>
+    </div>
   </div>
-
 </section>
 
         
